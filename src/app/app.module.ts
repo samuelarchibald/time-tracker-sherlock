@@ -11,11 +11,14 @@ import { ClientListComponent } from './client-list/client-list.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { TrackerComponent } from './tracker/tracker.component';
 import { NavigationComponent } from './navigation/navigation.component';
+<<<<<<< HEAD
 import { ProfileComponent } from './profile/profile.component';
 import { FavoritesComponent } from './favorites/favorites.component';
 import { TaskComponent } from './task/task.component';
 import { QuickActionsComponent } from './quick-actions/quick-actions.component';
 import { TrackerOverlayComponent } from './tracker-overlay/tracker-overlay.component';
+=======
+>>>>>>> parent of 182c146... Added monngoDB instancaes
 
 @NgModule({
   declarations: [
@@ -26,12 +29,16 @@ import { TrackerOverlayComponent } from './tracker-overlay/tracker-overlay.compo
     ClientListComponent,
     DashboardComponent,
     TrackerComponent,
+<<<<<<< HEAD
     NavigationComponent,
     ProfileComponent,
     FavoritesComponent,
     TaskComponent,
     QuickActionsComponent,
     TrackerOverlayComponent
+=======
+    NavigationComponent
+>>>>>>> parent of 182c146... Added monngoDB instancaes
   ],
   imports: [
     AppRoutingModule,
