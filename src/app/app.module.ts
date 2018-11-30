@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { AppRoutingModule } from './app-routing.module';
@@ -14,6 +15,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { FavoritesComponent } from './favorites/favorites.component';
 import { TaskComponent } from './task/task.component';
 import { QuickActionsComponent } from './quick-actions/quick-actions.component';
+import { TrackerOverlayComponent } from './tracker-overlay/tracker-overlay.component';
 
 @NgModule({
   declarations: [
@@ -28,14 +30,20 @@ import { QuickActionsComponent } from './quick-actions/quick-actions.component';
     ProfileComponent,
     FavoritesComponent,
     TaskComponent,
-    QuickActionsComponent
+    QuickActionsComponent,
+    TrackerOverlayComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+  
+
+}

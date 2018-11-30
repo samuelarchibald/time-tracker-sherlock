@@ -1,0 +1,23 @@
+$primary-color: #C96318;
+
+.app-tracker-overlay  {
+  position: absolute;
+  top:110px;left:0;right:0;bottom:0;
+  z-index: 110;
+  width: 100%;
+  height: 50px;
+  margin: 0px auto;
+  background-color: #C96318;
+  transition: all 500ms ease;
+  opacity:0.5;
+  visibility: hidden;
+  border-radius: 5px;
+  &.active {
+     width: 100%;
+  height: 100%;
+    opacity: 1;
+    top:0px;
+    visibility: visible;
+    border-radius: 0px;
+  }
+}
