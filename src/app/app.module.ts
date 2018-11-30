@@ -11,9 +11,6 @@ import { ClientListComponent } from './client-list/client-list.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { TrackerComponent } from './tracker/tracker.component';
 import { NavigationComponent } from './navigation/navigation.component';
-import { ProfileComponent } from './profile/profile.component';
-import { FavoritesComponent } from './favorites/favorites.component';
-import { TaskComponent } from './task/task.component';
 import { QuickActionsComponent } from './quick-actions/quick-actions.component';
 import { TrackerOverlayComponent } from './tracker-overlay/tracker-overlay.component';
 
@@ -27,9 +24,6 @@ import { TrackerOverlayComponent } from './tracker-overlay/tracker-overlay.compo
     DashboardComponent,
     TrackerComponent,
     NavigationComponent,
-    ProfileComponent,
-    FavoritesComponent,
-    TaskComponent,
     QuickActionsComponent,
     TrackerOverlayComponent
   ],
