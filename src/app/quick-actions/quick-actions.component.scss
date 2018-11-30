@@ -1,3 +1,4 @@
+$primary-color: #C96318;
 .component-container {
 
   button.btn {
@@ -7,8 +8,14 @@
     &.btn-primary {
         font-size: 24px;
         font-weight: bold;
-        height: 130px;
-        line-height: 100px;
+        line-height: 40px;
+        padding-bottom: 15px;
+        background-color: $primary-color;
+        span {
+          position: relative;
+          top:4px;
+          color: #fff;
+        }
         &:hover {
           background-color: #C96318;
         }

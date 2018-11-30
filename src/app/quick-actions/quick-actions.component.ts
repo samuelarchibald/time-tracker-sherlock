@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, HostListener } from '@angular/core';
+import { TrackerOverlayComponent } from '../tracker-overlay/tracker-overlay.component';
 
 @Component({
   selector: 'app-quick-actions',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuickActionsComponent implements OnInit {
 
+  @Input() TrackerOverlay : TrackerOverlayComponent;
+
+  
+  startTimer() {
+    this.TrackerOverlay.toggle();
+  }
+
+
   constructor() { }
 
   ngOnInit() {
   }
 
 }
+
+
