@@ -1,0 +1,26 @@
+.component-container {
+
+  button.btn {
+    width: 100%;
+    border-radius: 0px;
+    border: none;
+    &.btn-primary {
+        font-size: 24px;
+        font-weight: bold;
+        height: 130px;
+        line-height: 100px;
+        &:hover {
+          background-color: #C96318;
+        }
+
+        img {
+          width: 35px;
+          margin-right: 10px;
+        }
+    }
+    &.btn-secondary {
+      background-color: #222222 !important;
+    }
+  }
+
+}

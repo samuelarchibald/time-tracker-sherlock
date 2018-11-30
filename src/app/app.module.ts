@@ -10,6 +10,10 @@ import { ClientListComponent } from './client-list/client-list.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { TrackerComponent } from './tracker/tracker.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { ProfileComponent } from './profile/profile.component';
+import { FavoritesComponent } from './favorites/favorites.component';
+import { TaskComponent } from './task/task.component';
+import { QuickActionsComponent } from './quick-actions/quick-actions.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { NavigationComponent } from './navigation/navigation.component';
     ClientListComponent,
     DashboardComponent,
     TrackerComponent,
-    NavigationComponent
+    NavigationComponent,
+    ProfileComponent,
+    FavoritesComponent,
+    TaskComponent,
+    QuickActionsComponent
   ],
   imports: [
     BrowserModule,
